@@ -31,6 +31,9 @@ PEER_ENDPOINT=wg.example.com:51820
 # Client Private key. Specify location of file containing only the private key.
 CLIENT_PRIVATE_KEYFILE=/etc/wireguard-initramfs/private_key
 
+# Client Preshared key. Specify location of file containing only the Preshared key.
+CLIENT_PRESHARED_KEYFILE=/etc/wireguard-initramfs/preshared_key
+
 # Persistent Keepalive. Required to ensure connection for non-exposed ports.
 PERSISTENT_KEEPALIVES=25
 
