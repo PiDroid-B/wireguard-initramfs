@@ -44,7 +44,7 @@ done
 mkdir -p -- "${DESTDIR}/etc/wireguard"
 cp -p "${CONFIG}" "${DESTDIR}/etc/wireguard"
 cp -p "${CLIENT_PRIVATE_KEYFILE}" "${DESTDIR}/etc/wireguard/private_key"
-cp -pv "${CLIENT_PRESHARED_KEYFILE}" "${DESTDIR}/etc/wireguard/preshared_key"
+cp -p "${CLIENT_PRESHARED_KEYFILE}" "${DESTDIR}/etc/wireguard/preshared_key"
 
 # Add modules and wireguard exec
 manual_add_modules wireguard
